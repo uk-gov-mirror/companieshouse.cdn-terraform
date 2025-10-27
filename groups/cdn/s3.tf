@@ -49,7 +49,7 @@ resource "aws_s3_bucket_cors_configuration" "assets" {
 }
 
 module "s3_access_logging" {
-  source = "git@github.com:companieshouse/terraform-modules//aws/s3_access_logging?ref=1.0.349"
+  source = "git@github.com:companieshouse/terraform-modules//aws/s3_access_logging?ref=1.0.357"
 
   aws_account           = var.aws_account
   aws_region            = var.region

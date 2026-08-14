@@ -20,6 +20,7 @@ resource "aws_cloudfront_distribution" "assets" {
     allowed_methods  = ["GET", "HEAD"]
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = local.cloudfront_shared_origin_id
+    compress         = true
 
     cache_policy_id          = aws_cloudfront_cache_policy.assets.id
     origin_request_policy_id = aws_cloudfront_origin_request_policy.assets.id

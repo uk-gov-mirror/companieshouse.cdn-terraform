@@ -1,26 +1,7 @@
 aws_account = "development"
 
 environments = [
-  "aard1",
-  "amido",
-  "apollo1",
-  "celes1",
-  "cidev",
-  "csi",
-  "devops1",
-  "devops2",
-  "harmon1",
-  "parent1",
-  "phoenix1",
-  "rebel1",
-  "reserve1",
-  "reserve2",
-  "spartan1",
-  "synergy1",
-  "tbirds1",
-  "tcats1",
-  "titans1",
-  "toro1"
+  "cidev"
 ]
 
 cors_allowed_origins = [
